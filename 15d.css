@@ -1,0 +1,44 @@
+body{
+    height: 3000px;
+}
+.container{
+    width:320px;
+    height: 180px;
+    background-color: gray;
+    position: fixed;
+    bottom:15px;
+    right:15px;
+    
+}
+.close-button{
+    height: 35px;
+    width: 35px;
+    padding: 5px 5px;
+    border-radius: 35px;
+    background-color: black;
+    position: absolute;
+    top: -15px;
+    left:-18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+p{
+    margin:0;
+    color: white;
+    font-size:23px;
+    font-family: Arial;
+}
+.timestamp{
+    background-color: black;
+    color: white;
+    font-size:18px;
+    font-family:Arial;
+    padding: 5px 7px;
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    z-index:1
+}
